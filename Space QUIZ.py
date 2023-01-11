@@ -27,15 +27,15 @@ if question == "jupiter":
 else: 
     print("Incorrect!")
 
-question = input("What is the closest planet to the Sun?").title()
+question = input("What is the closest planet to the Sun? ").lower()
 if question == "mercury":
     print("Correct!")
     score += 1
 else: 
     print("Incorrect!")
 
-question = input("Earth is located in which galaxy? ").title()
-if question == "milkyway ":
+question = input("Earth is located in which galaxy? ").lower()
+if question == "milkyway":
     print("Correct!")
     score += 1
 else: 
